@@ -1,0 +1,5 @@
+MESSAGE "File: D:\Faculta\AN1\Sem2\PSN\Proiect\TemperaturaAmbianta\src\modul_simulare.vhd" 
+MESSAGE "Compile Entity "ms"" 
+MESSAGE "Entity `ms' has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "behavioral" of Entity "ms"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]" 

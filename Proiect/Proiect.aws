@@ -1,0 +1,15 @@
+[Version]
+Version=6.3
+[Designs]
+temperaturaambianta=.\TemperaturaAmbianta\TemperaturaAmbianta.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+temperaturaambianta=1
+nr_desc=0
+[Settings]
+Active=temperaturaambianta

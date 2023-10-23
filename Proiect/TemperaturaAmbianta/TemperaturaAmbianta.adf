@@ -1,0 +1,77 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=TemperaturaAmbianta
+
+[Library]
+TemperaturaAmbianta=.\TemperaturaAmbianta.lib
+
+[$LibMap$]
+TemperaturaAmbianta=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=ms|behavioral|0   
+ShowHide=ShowTopLevel
+Selected=
+
+[Folders]
+Name3=Makefiles
+Directory3=d:\Faculta\AN1\Sem2\PSN\Proiect\TemperaturaAmbianta\
+Extension3=mak
+Name4=Memory
+Directory4=d:\Faculta\AN1\Sem2\PSN\Proiect\TemperaturaAmbianta\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=d:\Faculta\AN1\Sem2\PSN\Proiect\TemperaturaAmbianta\
+Extension5=dll
+
+[Files]
+/numarator0_9.vhd=-1
+/Numarator0_5.vhd=-1
+/Numarator0_3.vhd=-1
+/Numarator0_3_var1.vhd=-1
+/numarator0_3_var2.vhd=-1
+/Numarator0_2.vhd=-1
+/Numarator0_1.vhd=-1
+/Numarator0_1_var2.vhd=-1
+/temperatura.vhd=-1
+/BCD_7segmente.vhd=-1
+/final.vhd=-1
+/modul_simulare.vhd=-1
+/Waveform_Modul_Simulare.awf=-1
+/Waveform_Modul_sim.awf=-1
+
+[Files.Data]
+.\src\numarator0_9.vhd=VHDL Source Code
+.\src\Numarator0_5.vhd=VHDL Source Code
+.\src\Numarator0_3.vhd=VHDL Source Code
+.\src\Numarator0_3_var1.vhd=VHDL Source Code
+.\src\numarator0_3_var2.vhd=VHDL Source Code
+.\src\Numarator0_2.vhd=VHDL Source Code
+.\src\Numarator0_1.vhd=VHDL Source Code
+.\src\Numarator0_1_var2.vhd=VHDL Source Code
+.\src\temperatura.vhd=VHDL Source Code
+.\src\BCD_7segmente.vhd=VHDL Source Code
+.\src\final.vhd=VHDL Source Code
+.\src\modul_simulare.vhd=VHDL Source Code
+.\src\Waveform_Modul_Simulare.awf=Waveform File
+.\src\Waveform_Modul_sim.awf=Waveform File
+

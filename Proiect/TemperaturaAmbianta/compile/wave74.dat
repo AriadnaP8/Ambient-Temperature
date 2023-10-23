@@ -1,0 +1,115 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(6 downto 0)1 ricd6 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 29 1 7 Min_Zec_Out
+$SC 1-25/4
+$BUS OUT 58 1 7 4 4 Uni
+$SC 30-54/4
+$BUS OUT 87 1 7 Ora_Zec_Out
+$SC 59-83/4
+$BUS OUT +33 1 7 4 4 Uni
+$SC 88-+24/4
+$BUS OUT +33 1 7 Zi_Zec_Out
+$SC 117-+24/4
+$BUS OUT +33 1 7 3 4 Uni
+$SC 146-+24/4
+$BUS OUT +33 1 7 Luna_Zec_Out
+$SC 175-+24/4
+$BUS OUT +33 1 7 5 4 Uni
+$SC 204-+24/4
+$BUS OUT +33 1 7 0 8 Temp
+$SC 233-+24/4
+$BUS OUT +33 1 7 5 4 Zec
+$SC 262-+24/4
+I 3 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S +21 3 4 q1
+$SC 291-+12/4
+$BUS S +21 3 4 q2
+$SC 308-+12/4
+$BUS S +21 3 4 q3
+$SC 325-+12/4
+$BUS S +21 3 4 q4
+$SC 342-+12/4
+$BUS S +21 3 4 q5
+$SC 359-+12/4
+$BUS S +21 3 4 q6
+$SC 376-+12/4
+$BUS S +21 3 4 q7
+$SC 393-+12/4
+$BUS S +21 3 4 q8
+$SC 410-+12/4
+$BUS S +21 3 4 q9
+$SC 427-+12/4
+$BUS S +21 3 4 q10
+$SC 444-+12/4
+$S +5 2 e1
+$S +4 2 e2
+$S +4 2 e3
+$S +4 2 e4
+$S +4 2 e5
+$S +4 2 e6
+$S +4 2 e7
+$S +4 2 e8
+$S +4 2 e9
+$S +4 2 t1
+$S +4 2 t2
+$BUS IN +20 3 4 Min_Zec_In
+$SC 505-+12/4
+$BUS IN +21 3 4 4 3 Uni
+$SC 522-+12/4
+$BUS IN +21 3 4 Ora_Zec_In
+$SC 539-+12/4
+$BUS IN +21 3 4 4 3 Uni
+$SC 556-+12/4
+$BUS IN +21 3 4 Zi_Zec_In
+$SC 573-+12/4
+$BUS IN +21 3 4 3 3 Uni
+$SC 590-+12/4
+$BUS IN +21 3 4 Luna_Zec_In
+$SC 607-+12/4
+$BUS IN +21 3 4 5 3 Uni
+$SC 624-+12/4
+$IN +5 2 R
+$IN +4 2 CLK
+$IN +4 2 EN
+$ENDTIME 100000
+$WAVES 1-204/29
+=0 T 0
+=1 D 0 2
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 5-25/4 +9-54/4 +9-83/4 +9-+20/4 +9-+20/4 +9-+20/4 +9-+20/4 +9-+20/4 +5-+24/4 +5-+24/4
+*0
+*1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES +5-+12/4 +5-+12/4 +5-+12/4 +5-+12/4 +5-+12/4 +5-+12/4 +5-+12/4 +5-+12/4 +5-+8/4 +9-+8/4
+*0
+=2 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 439 +17
+*0
+*2
+$VALUES
+V 2
+U
+1
+$END
+$WAVES +5-+56/4 +5-+12/4 +5-+12/4 +5-+12/4 +5-+12/4 +5-+12/4 +5-+12/4 +5-+12/4 +5-+8/4
+*0
+$VALUES
+V 1
+U
+$END
+$ENDWAVE

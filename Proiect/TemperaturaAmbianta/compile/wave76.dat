@@ -1,0 +1,94 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+I 2 "e#9#std_logicc9 UX01ZWLH-"
+$BUS S 17 1 4 Luna_Zec_In
+$SC 1-13/4
+$BUS S 34 1 4 5 3 Uni
+$SC 18-30/4
+$S +5 2 R
+$S +4 2 CLK
+$S +4 2 EN
+I 3 "a#28#std_logic_vector(6 downto 0)1 ricd6 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS S 75 3 7 Min_Zec_Out
+$SC 47-71/4
+$BUS S +33 3 7 4 4 Uni
+$SC 76-+24/4
+$BUS S +33 3 7 Ora_Zec_Out
+$SC 105-+24/4
+$BUS S +33 3 7 4 4 Uni
+$SC 134-+24/4
+$BUS S +33 3 7 Zi_Zec_Out
+$SC 163-+24/4
+$BUS S +33 3 7 3 4 Uni
+$SC 192-+24/4
+$BUS S +33 3 7 Luna_Zec_Out
+$SC 221-+24/4
+$BUS S +33 3 7 5 4 Uni
+$SC 250-+24/4
+$BUS S +33 3 7 0 8 Temp
+$SC 279-+24/4
+$BUS S +33 3 7 5 4 Zec
+$SC 308-+24/4
+$BUS S +21 1 4 Min_Zec_In
+$SC 337-+12/4
+$BUS S +21 1 4 4 3 Uni
+$SC 354-+12/4
+$BUS S +21 1 4 Ora_Zec_In
+$SC 371-+12/4
+$BUS S +21 1 4 4 3 Uni
+$SC 388-+12/4
+$BUS S +21 1 4 Zi_Zec_In
+$SC 405-+12/4
+$BUS S +21 1 4 3 3 Uni
+$SC 422-+12/4
+$ENDTIME 100000
+$WAVES 39
+=0 T 0
+$VALUES
+V 1
+U
+$END
+$WAVES 1-13/4 +5 +4 +8 +5 337 +4 +13 +8 +9-+8/4 +9 +17-+12/4 +9-+8/4
+*0
+=1 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 26 43 345 +4 +9 +8 +17 +9-+8/4 +22
+*0
+*1
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 47-250/29
+*0
+=2 D 0 2
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 51-71/4 +9-+20/4 +9-+20/4 +9-+20/4 +9-+20/4 +9-+20/4 +9-+20/4 +9-+20/4 +5 +4 +12 +4 +9 +4 +12 +4
+*0
+*2
+$VALUES
+V 2
+U
+1
+$END
+$WAVES 287 +4 +12 +13 +4 +12
+*0
+*2
+=3 D 0 4
+$VALUES
+V 3
+U
+1
+0
+$END
+$ENDWAVE

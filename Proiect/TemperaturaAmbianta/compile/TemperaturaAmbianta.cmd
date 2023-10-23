@@ -1,0 +1,1 @@
+-w -s "D:\Faculta\AN1\Sem2\PSN\Proiect\library.cfg"  -j "D:\Faculta\AN1\Sem2\PSN\Proiect\TemperaturaAmbianta\projlib.cfg"  -d "D:\Faculta\AN1\Sem2\PSN\Proiect\TemperaturaAmbianta\compile\"  -work TemperaturaAmbianta -dbg -e 100 "D:\Faculta\AN1\Sem2\PSN\Proiect\TemperaturaAmbianta\src\modul_simulare.vhd" 

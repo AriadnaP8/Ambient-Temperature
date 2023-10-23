@@ -1,0 +1,27 @@
+elbread.dll ver. 1.0.5.365 Tue May 31 12:01:02 2022
+
+
+----------------------------------------------------
+Entity          | Architecture | Library          
+----------------------------------------------------
+ms              | behavioral   | TemperaturaAmbianta
+fin             | behavioral   | temperaturaambianta
+cresc0_9        | behavioral   | temperaturaambianta
+cresc0_5        | behavioral   | temperaturaambianta
+cresc0_3        | behavioral   | temperaturaambianta
+cresc0_2        | behavioral   | temperaturaambianta
+cresc0_3_var2   | behavioral   | temperaturaambianta
+cresc0_3_var1   | behavioral   | temperaturaambianta
+cresc0_1_var2   | behavioral   | temperaturaambianta
+generator       | behavioral   | temperaturaambianta
+bcd_7_segmente  | behavioral   | temperaturaambianta
+----------------------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+std_logic_1164      | ieee
+std_logic_arith     | ieee
+std_logic_unsigned  | ieee
+-----------------------------
